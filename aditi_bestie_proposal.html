@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffe5ef">
+<title>For Aditi 💗</title>
+<style>
+  :root{--pink:#ff5f9e;--deep:#a72c65;--ink:#63384d;--cream:#fff9fc;--glass:rgba(255,255,255,.78)}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;min-height:100vh;font-family:ui-rounded,"Segoe UI",system-ui,-apple-system,sans-serif;color:var(--ink);background:radial-gradient(circle at 12% 10%,#fff 0,transparent 25%),radial-gradient(circle at 90% 18%,#ffd0e4 0,transparent 30%),linear-gradient(135deg,#fff2f7,#ffe1ed 52%,#fff7fb);overflow-x:hidden}
+  .glow{position:fixed;z-index:-1;width:230px;height:230px;border-radius:50%;filter:blur(48px);opacity:.45;animation:drift 10s ease-in-out infinite alternate;background:#ff8cba;pointer-events:none}
+  .glow.one{top:8%;left:-90px}.glow.two{right:-100px;bottom:8%;background:#c8a6ff;animation-delay:-4s}
+  @keyframes drift{to{transform:translate(35px,-28px) scale(1.18)}}
+  .floaties{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0}
+  .floaty{position:absolute;bottom:-45px;opacity:0;animation:rise linear infinite;color:#ff6fa8;text-shadow:0 0 12px #ffb9d3}
+  @keyframes rise{0%{transform:translateY(0) rotate(0);opacity:0}12%{opacity:.65}85%{opacity:.45}100%{transform:translateY(-115vh) rotate(30deg);opacity:0}}
+  main{position:relative;z-index:1;width:min(720px,calc(100% - 28px));margin:0 auto;padding:28px 0 40px}
+  .topline{text-align:center;font-size:.82rem;letter-spacing:.16em;text-transform:uppercase;color:#b45d83;margin:8px 0 18px}
+  .card{background:var(--glass);border:1px solid rgba(255,255,255,.9);box-shadow:0 22px 70px rgba(183,73,120,.14),inset 0 1px 0 white;border-radius:30px;padding:clamp(22px,6vw,48px);backdrop-filter:blur(14px);text-align:center;overflow:hidden}
+  .tiny{display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border-radius:999px;background:#fff0f6;color:#ad4774;font-size:.84rem}
+  h1{font-size:clamp(2.5rem,10vw,4.8rem);line-height:1.02;letter-spacing:-.055em;margin:23px 0 12px;color:#9f285f}
+  h1 span{color:#ff5798}
+  .subtitle{font-size:clamp(1rem,3.6vw,1.16rem);line-height:1.75;max-width:510px;margin:0 auto;color:#7e5367}
+  .heart-wrap{height:125px;display:grid;place-items:center;margin:14px auto 10px}
+  .big-heart{font-size:clamp(5rem,20vw,7rem);filter:drop-shadow(0 9px 16px #ff9fc5);animation:heartbeat 1.8s ease-in-out infinite;display:inline-block}
+  @keyframes heartbeat{0%,100%{transform:scale(1)}12%{transform:scale(1.09)}24%{transform:scale(1)}38%{transform:scale(1.06)}52%{transform:scale(1)}}
+  .divider{height:1px;background:linear-gradient(90deg,transparent,#f6a6c7,transparent);margin:27px 0}
+  .note{font-size:1.04rem;line-height:1.9;text-align:left;background:#fff8fb;border:1px solid #ffe0ec;border-radius:22px;padding:20px 22px;margin:22px 0}
+  .note p{margin:0 0 12px}.note p:last-child{margin:0}
+  .buttons{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:24px}
+  button{font:inherit;font-weight:750;border:0;border-radius:999px;padding:14px 21px;cursor:pointer;transition:transform .2s,box-shadow .2s;min-height:48px}
+  button:focus-visible{outline:3px solid #a72c65;outline-offset:4px}
+  button:hover{transform:translateY(-2px)}
+  .primary{color:white;background:linear-gradient(135deg,#ff73aa,#e8438a);box-shadow:0 10px 24px #f6a0c3}
+  .secondary{background:white;color:#a63d70;border:1px solid #f6c2d8}
+  .step{display:none;animation:appear .55s ease both}.step.active{display:block}
+  @keyframes appear{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+  .eyebrow{color:#c05284;text-transform:uppercase;letter-spacing:.14em;font-size:.76rem;font-weight:800}
+  h2{font-size:clamp(1.65rem,6vw,2.5rem);line-height:1.18;margin:13px 0;color:#9f285f;letter-spacing:-.035em}
+  .choice-area{display:grid;gap:12px;max-width:430px;margin:25px auto 0}
+  .choice{width:100%;white-space:normal}
+  .response{display:none;margin-top:20px;padding:16px;border-radius:18px;background:#fff0f6;line-height:1.7}
+  .response.show{display:block;animation:appear .4s ease}
+  .progress{height:4px;border-radius:99px;background:#f8d4e3;margin:0 4px 22px;overflow:hidden}
+  .progress span{display:block;height:100%;width:33.3%;background:linear-gradient(90deg,#ff8ab8,#e8438a);transition:width .4s}
+  .footer{text-align:center;color:#a36b85;font-size:.83rem;margin:20px 8px 0}
+  .footer strong{color:#a33a70}
+  .confetti{position:fixed;top:-15px;z-index:10;pointer-events:none;animation:fall 3.4s linear forwards}
+  @keyframes fall{to{transform:translateY(110vh) rotate(700deg);opacity:0}}
+  @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="glow one"></div><div class="glow two"></div>
+<div class="floaties" id="floaties" aria-hidden="true"></div>
+<main>
+  <div class="topline">a little something from my heart ✧</div>
+  <div class="card">
+    <div class="progress" aria-label="Proposal progress"><span id="progress"></span></div>
+    <section class="step active" id="step1">
+      <div class="tiny">💌 just for you, Aditi</div>
+      <div class="heart-wrap"><span class="big-heart" aria-hidden="true">💗</span></div>
+      <h1>Hey, <span>Aditi</span>…</h1>
+      <p class="subtitle">There’s something I’ve wanted to tell you, and I made this little corner of the internet just for you. So take a breath, tap the button, and let me say it properly. 🌷</p>
+      <div class="buttons"><button class="primary" onclick="goTo(2)">Open your little surprise ✨</button></div>
+    </section>
+
+    <section class="step" id="step2">
+      <div class="eyebrow">from best friends to something more?</div>
+      <h2>Somewhere along the way,<br>you became extra special. 💕</h2>
+      <p class="subtitle">Your presence makes ordinary days feel brighter. The little talks, the silly moments, and simply having you around mean more to me than I always know how to explain.</p>
+      <div class="note">
+        <p>Dear Aditi,</p>
+        <p>I really value our friendship, and I never want to take it for granted. But honestly, my feelings have grown into something more than friendship.</p>
+        <p>I find myself smiling because of you, thinking about you, and wondering what it would be like if we could make beautiful memories as more than besties.</p>
+        <p>So I wanted to be honest with you—with no pressure, just my heart being real. 💗</p>
+      </div>
+      <div class="buttons"><button class="secondary" onclick="goTo(1)">← Go back</button><button class="primary" onclick="goTo(3)">There's one more thing… 💌</button></div>
+    </section>
+
+    <section class="step" id="step3">
+      <div class="tiny">the question I've been nervous to ask 🌸</div>
+      <div class="heart-wrap"><span class="big-heart" aria-hidden="true">💖</span></div>
+      <h2>Aditi, would you like to give us a chance to be more than best friends? 🥹</h2>
+      <p class="subtitle">Whatever your answer is, I’ll respect it. Our friendship matters to me, and you deserve to answer honestly and in your own time.</p>
+      <div class="choice-area">
+        <button class="primary choice" onclick="answer('yes')">Yes… let’s see where this goes 💗</button>
+        <button class="secondary choice" onclick="answer('think')">I need a little time to think 🌷</button>
+        <button class="secondary choice" onclick="answer('friends')">I care about you as my bestie 🫶</button>
+      </div>
+      <div class="response" id="response" role="status" aria-live="polite"></div>
+      <div class="buttons"><button class="secondary" onclick="goTo(2)">Read my message again</button></div>
+    </section>
+  </div>
+  <div class="footer">Made with a little courage and a lot of care by <strong>Ayush</strong> 💗<br>Whatever you feel, your honesty is safe with me.</div>
+</main>
+<script>
+  const floaties = document.getElementById('floaties');
+  const symbols = ['♡','♥','✦','💕','✧'];
+  for(let i=0;i<19;i++){
+    const el=document.createElement('span');el.className='floaty';el.textContent=symbols[i%symbols.length];
+    el.style.left=(Math.random()*100)+'%';el.style.animationDuration=(9+Math.random()*12)+'s';
+    el.style.animationDelay=(-Math.random()*18)+'s';el.style.fontSize=(13+Math.random()*19)+'px';
+    floaties.appendChild(el);
+  }
+  function goTo(n){
+    document.querySelectorAll('.step').forEach(s=>s.classList.remove('active'));
+    document.getElementById('step'+n).classList.add('active');
+    document.getElementById('progress').style.width=({1: '33.3%',2:'66.6%',3:'100%'})[n];
+    const r=document.getElementById('response');r.classList.remove('show');r.textContent='';
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
+  function answer(kind){
+    const r=document.getElementById('response');
+    const messages={
+      yes:'Aditi, you just made this nervous heart smile so much. 🥹💗 Let’s take things slowly, communicate honestly, and make this our own little story. — Ayush',
+      think:'Of course, Aditi. Take all the time you need—there’s no deadline and no pressure. I’m grateful you heard me out, and I’ll respect your feelings. 🌷 — Ayush',
+      friends:'Thank you for being honest with me, Aditi. 💗 I respect how you feel, and I still value the friendship we share. You don’t owe me the same feelings in return. — Ayush'
+    };
+    r.textContent=messages[kind];r.classList.add('show');
+    if(kind==='yes')celebrate();
+  }
+  function celebrate(){
+    const colors=['#ff5f9e','#ffc2da','#c7a4ff','#ffdf87','#f48fb1'];
+    for(let i=0;i<46;i++){
+      const e=document.createElement('span');e.className='confetti';e.textContent=['♥','✦','♡','💕'][i%4];
+      e.style.left=(Math.random()*100)+'vw';e.style.color=colors[i%colors.length];e.style.fontSize=(12+Math.random()*17)+'px';
+      e.style.animationDelay=(Math.random()*.7)+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),4300);
+    }
+  }
+</script>
+</body>
+</html>
